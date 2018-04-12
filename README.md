@@ -21,7 +21,7 @@ python3 training.py
 ```
 4. When your model has completed training, it will perform a full evaluation on the test set. This output can be found in the folder `runs/<experiment_name>/` as `submission_<experiment_name>.csv`.
 
-Submit this `csv` file to our page on [Kaggle](https://www.kaggle.com/c/mp18-dynamic-gesture-recognition/submissions).
+Submit this `csv` file to our page on Kaggle.
 
 ## Remarks
 You can use external libraries. Make sure that you add them into `setup.py` before submitting your code.
