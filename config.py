@@ -4,7 +4,7 @@ import os
 config = {}
 
 ##################################################################
-# Please note that the following fields will be set by our scripts to re-train and re-evaluate your model.
+# Please note that the following fields will be updated by us to re-train and re-evaluate your model. 
 
 # Where experiment results are stored.
 config['log_dir'] = './runs/'
