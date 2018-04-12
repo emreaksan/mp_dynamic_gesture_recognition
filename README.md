@@ -9,12 +9,13 @@ All questions should first be directed to our course Piazza before being sent to
 
 The following two steps will prepare your environment to begin training and evaluating models.
 
-1. Download training, validation and test datasets from kaggle project page.
-2. Install dependencies by running (with `sudo` appended if necessary)
+1. Install dependencies by running (with `sudo` appended if necessary)
 ```
 python3 setup.py install
 ```
-3. Train the model provided with source code by running 
+2. Download training, validation and test datasets from kaggle project page.
+3. Update data and output paths in `config.py`.
+4. Train the model provided with source code by running 
 ```
 python3 training.py
 ```
